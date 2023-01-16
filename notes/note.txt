@@ -1,0 +1,2 @@
+Base URI image : https://gateway.pinata.cloud/ipfs/QmUq36neBv5b53MFpYgWVYyko38hArcEQVTQb5DusPpiPf/
+Base URI JSON : https://gateway.pinata.cloud/ipfs/QmUTyuSLkXpM8BwjkVkBKb2TU4xeou6BfsjAsqgz6aVFzK/

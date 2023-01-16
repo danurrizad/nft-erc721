@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Minting NFT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdeliver.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script src="node_modules/web3.js-browser/build/web3.js"></script>
+    <script src="./block.js"></script>
+</head>
+<body class="bg-[#81B6A9]">
+    <header>
+        <div class="bg-black py-2">
+            <div class="justify-between flex">
+                <div class="px-2">
+                    <h1 class="font-bold text-white">Virtual Reality NFT</h1>
+                    <h2 class="text-white">Wallet address : <span id="wallet-address" class="text-white"></span></h2>
+                </div>
+                <div class="px-2 py-2">
+                    <button id="connect" class="text-white border-2 border-white-solid p-2 rounded-xl hover:bg-white hover:text-black" onclick="Connect()">Connect wallet</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div >
+            <div class="my-4 bg-[#C6FAED] mx-12 rounded-xl shadow-xl">
+                <div class="justify-center flex py-4">
+                    <button class="bg-blue-500 py-2 px-4 rounded border-2 border-yellow-700 hover:bg-blue-700">
+                        <a href="" class="text-yellow-400 hover:text-yellow-600">OpenSea TestNet</a>
+                    </button>
+                </div>
+                <div class="justify-center flex py-2">
+                    <img src="assets/img/image-nft.png" class="w-1/4"/>
+                </div>
+                <div class="text-center">
+                    <h1 class="text-xl font-bold">Total Supply : <span id="total"></span>/6</h1>
+                </div>
+                <div class="justify-center flex">
+                    <button id="mint" class="border-2 border-black p-2 bg-green-400 hover:bg-green-600 my-4" onclick="updateCurrentCount()">Mint this NFT</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="min">
+
+        </div>
+    </footer>
+</body>
+</html>
