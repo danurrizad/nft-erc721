@@ -19,7 +19,7 @@ contract VirtualRealityBoyNFTs is ERC721, ERC721Enumerable, ERC721URIStorage, Pa
     constructor() ERC721("Virtual Reality Boy NFTs", "VRNFT") {}
 
     function _baseURI() internal pure override returns (string memory) {
-        return "https://gateway.pinata.cloud/ipfs/QmUq36neBv5b53MFpYgWVYyko38hArcEQVTQb5DusPpiPf/";
+        return "https://gateway.pinata.cloud/ipfs/QmdeApjte8CiebJWqvfH1DHEBFtgLYhQWpuLVTG5cQUEtX/"";
     }
 
     function pause() public onlyOwner {
