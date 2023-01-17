@@ -556,6 +556,7 @@
                         }
                     ];
         const ADDRESS = "0xA2c2F9E2Af589f961472237390Df45a466457647";
+        Web3 = require('web3')
         (async()=>{
             if(window.ethereum){
                 contract = new web3.eth.Contract(ABI, ADDRESS);
